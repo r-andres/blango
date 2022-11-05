@@ -1,0 +1,160 @@
+[{
+  "model": "blog.comment",
+  "pk": 1,
+  "fields": {
+    "creator": 1,
+    "content": "Amazing",
+    "content_type": 7,
+    "object_id": 1,
+    "created_at": "2022-10-08T18:29:01.370Z",
+    "modified_at": "2022-10-08T18:29:01.388Z"
+  }
+}, {
+  "model": "blog.comment",
+  "pk": 2,
+  "fields": {
+    "creator": 1,
+    "content": "Sincerely, it works!",
+    "content_type": 7,
+    "object_id": 1,
+    "created_at": "2022-10-09T18:41:43.604Z",
+    "modified_at": "2022-10-09T18:41:43.604Z"
+  }
+}, {
+  "model": "blog.comment",
+  "pk": 3,
+  "fields": {
+    "creator": 1,
+    "content": "Comment",
+    "content_type": 7,
+    "object_id": 2,
+    "created_at": "2022-10-11T18:59:16.769Z",
+    "modified_at": "2022-10-11T18:59:16.769Z"
+  }
+}, {
+  "model": "blog.comment",
+  "pk": 4,
+  "fields": {
+    "creator": 1,
+    "content": "dfs",
+    "content_type": 7,
+    "object_id": 1,
+    "created_at": "2022-10-11T19:01:17.162Z",
+    "modified_at": "2022-10-11T19:01:17.162Z"
+  }
+}, {
+  "model": "blog.comment",
+  "pk": 5,
+  "fields": {
+    "creator": 2,
+    "content": "Thank you for reading my post! Signed, codio2",
+    "content_type": 7,
+    "object_id": 1,
+    "created_at": "2022-11-01T18:02:35.858Z",
+    "modified_at": "2022-11-01T18:02:35.858Z"
+  }
+}, {
+  "model": "blog.comment",
+  "pk": 6,
+  "fields": {
+    "creator": 1,
+    "content": "Thank you for reading my post! Signed, codio",
+    "content_type": 7,
+    "object_id": 2,
+    "created_at": "2022-11-01T18:02:35.858Z",
+    "modified_at": "2022-11-01T18:02:35.858Z"
+  }
+}, {
+  "model": "blog.comment",
+  "pk": 7,
+  "fields": {
+    "creator": 2,
+    "content": "Thank you for reading my post! Signed, codio2",
+    "content_type": 7,
+    "object_id": 3,
+    "created_at": "2022-11-01T18:02:35.858Z",
+    "modified_at": "2022-11-01T18:02:35.858Z"
+  }
+}, {
+  "model": "blog.tag",
+  "pk": 1,
+  "fields": {
+    "value": "django"
+  }
+}, {
+  "model": "blog.post",
+  "pk": 1,
+  "fields": {
+    "author": 2,
+    "created_at": "2022-10-07T19:22:22.454Z",
+    "modified_at": "2022-10-09T11:12:11.026Z",
+    "published_at": "2022-10-07T19:21:54Z",
+    "title": "An example post",
+    "slug": "dsfsad",
+    "summary": "A short example post",
+    "content": "<h3>Example</h3>\r\n<p>Using HTML to render itself.</p>",
+    "tags": [1]
+  }
+}, {
+  "model": "blog.post",
+  "pk": 2,
+  "fields": {
+    "author": 1,
+    "created_at": "2022-10-09T10:59:24.274Z",
+    "modified_at": "2022-10-09T10:59:24.274Z",
+    "published_at": "2022-10-09T10:58:24Z",
+    "title": "Other Post",
+    "slug": "other-post",
+    "summary": "Another post for completion",
+    "content": "<h4>Introduction</h4>\r\n\r\n<h4>Development</h4>\r\n<h4>Conclusion</h4>",
+    "tags": [1]
+  }
+}, {
+  "model": "blog.post",
+  "pk": 3,
+  "fields": {
+    "author": 2,
+    "created_at": "2022-10-09T18:16:43.888Z",
+    "modified_at": "2022-10-09T18:16:43.888Z",
+    "published_at": "2022-10-09T18:15:58Z",
+    "title": "Adding more blog posts",
+    "slug": "adding-more-blog-posts",
+    "summary": "Adding more blog posts",
+    "content": "Adding more blog posts.",
+    "tags": [1]
+  }
+}, {
+  "model": "blango_auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$260000$vLTLtywkwmc3GLaRk3jWGw$Tgv/wo+ltRpBdvGaFmpxgZeWzK1YVlNOGnAOMYWxaL8=",
+    "last_login": "2022-10-24T17:48:49.544Z",
+    "is_superuser": true,
+    "username": "codio",
+    "first_name": "MyCodioFirstName",
+    "last_name": "MyCodioLastName",
+    "email": "codio@example.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2022-10-07T19:09:01Z",
+    "groups": [],
+    "user_permissions": []
+  }
+}, {
+  "model": "blango_auth.user",
+  "pk": 2,
+  "fields": {
+    "password": "pbkdf2_sha256$260000$5tdkETgJbRbfvCjJaq6qnF$PIN71KbO05zlzEkafYn3rblpdV5nj/wd8Gva3ENicNc=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "codio2",
+    "first_name": "Ricardo",
+    "last_name": "Codio",
+    "email": "Codio2@example.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2022-10-09T11:11:37Z",
+    "groups": [],
+    "user_permissions": []
+  }
+}]
